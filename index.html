@@ -3,66 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <img src="https://i.pinimg.com/236x/d1/65/8f/d1658f4673f8e9f7aada616f7bf56657.jpg" alt="Descripción de la imagen">
+    <title>Portafolio de [Tu Nombre]</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: hsla(60, 19%, 94%, 0.916);
+            color: #090909;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #666;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            color: #ff0;
-        }
-        main {
+        .container {    
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
         }
         h1 {
-            color: #333;
+            color: #6c6f71;
             text-align: center;
+        }
+        h2 {
+            color: #0f04da;
         }
         p {
             text-align: justify;
         }
-        img {
-            display: block;
-            margin: auto;
-            max-width: 100%;
-            height: auto;
+        .section {
+            margin-bottom: 30px;
         }
+        .section-header {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        header {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+img {
+    width: 150px; /* cambiar el ancho de la imagen según tu preferencia */
+    height: 150px; /* cambiar la altura de la imagen según tu preferencian */
+    border-radius: 50px; /* Agregar bordes redondeados a la imagen */
+}
+
     </style>
 </head>
 <body>
+
+<div class="container">
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>¡Hola, soy [Tu Nombre]!</h1>
     </header>
-    <nav>
-        <a href="#">pollo es una creida</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-    </nav>
-    <main>
-        <h1>Bienvenido a mi página web</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero sit amet magna vulputate blandit. Fusce non justo sit amet nisl lobortis volutpat. Vivamus eu ex a felis consequat dictum. Proin sagittis, nisi vel mattis ultricies, sapien justo ultrices sapien, a facilisis est arcu non felis. Nullam suscipit, nunc vitae commodo aliquam, ex lorem suscipit leo, vel vehicula eros ipsum vel dolor.</p>
-        <img src="https://via.placeholder.com/400" alt="Imagen de ejemplo">
-    </main>
+    
+    <section class="section">
+        <div class="section-header">
+            <h2>Mi Biografía</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris odio. Sed scelerisque augue nec feugiat venenatis. Sed vitae ipsum et dolor fermentum interdum ac eu eros. Proin ullamcorper ligula nec ex commodo tincidunt. Nullam hendrerit risus nec eleifend tincidunt.</p>
+        
+        <p>Curabitur ut fermentum arcu. Donec sagittis est id odio rhoncus, non fermentum eros aliquet. Vestibulum laoreet dolor a sapien malesuada, vitae sodales nisl scelerisque. Sed sed eros urna. Ut nec erat non nisi rhoncus ultrices. Nulla facilisi.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Educación</h2>
+        </div>
+        <p>Describe tu educación aquí. Incluye detalles como institución, grado obtenido, campo de estudio, etc.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Experiencia Laboral</h2>
+        </div>
+        <p>Describe tu experiencia laboral aquí. Incluye detalles como el nombre del empleador, tu puesto, responsabilidades, logros, etc.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Proyectos Destacados</h2>
+        </div>
+        <p>Enumera y describe brevemente algunos de tus proyectos más destacados. Incluye detalles sobre el propósito del proyecto, tu contribución y las tecnologías utilizadas.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Habilidades</h2>
+        </div>
+        <p>Enumera tus habilidades relevantes para tu campo. Pueden incluir habilidades técnicas, habilidades blandas, herramientas y tecnologías que dominas, etc.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Contacto</h2>
+        </div>
+        <p>Incluye información de contacto como tu dirección de correo electrónico, número de teléfono y enlaces a tus perfiles en redes sociales o sitios web.</p>
+    </section>
+</div>
+
 </body>
 </html>
-
 
